@@ -11,7 +11,7 @@ Esto es un texto normal de GitHub, escribiendo directamente en Markdown
 ### Ejemplo de tabla
 | Rank | TABLA DE PRUEBA |
 |-----:|---------------|
-|     1|Lexto de prueba 1|
+|     1|Texto de prueba 1|
 |     2|La longitud de las celdas en Markdown no importa|
 |     3|Todas las filas se adaptan todas a la mas larga|
 
