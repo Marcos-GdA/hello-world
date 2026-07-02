@@ -2,6 +2,28 @@
 ## Este repositorio es para practicar el funcionamiento de GitHub
 ### Este es un encabezado de tercer nivel
 
-En GitHub, los cambios guardados se llaman confirmaciones. Cada confirmación tiene un mensaje de confirmación asociado, el cual es una descripción que explica por qué se realizó algún cambio en particular. Los mensajes de confirmación capturan la historia de tus cambios para que otros contribuyentes puedan entender lo que hiciste y por qué.
+Esto es un texto normal de GitHub, escribiendo directamente en Markdown
 
-<!-- Este texto no se mostrará-->
+<!-- Este texto no se mostrará, es tan solo un comentario -->
+
+---
+
+### Ejemplo de tabla
+| Rank | TABLA DE PRUEBA |
+|-----:|---------------|
+|     1|Lexto de prueba 1|
+|     2|La longitud de las celdas en Markdown no importa|
+|     3|Todas las filas se adaptan todas a la mas larga|
+
+---
+
+### Ejemplo de sección de texto contraída
+<details>
+  <summary>Click Aquí</summary>
+  Aqui se muestra el texto escondido dentro de la etiqueta de la sección
+</details>
+
+---
+
+### Ejemplo de cita
+> Así se mostraría una cita en Markdown
