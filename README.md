@@ -4,6 +4,15 @@
 
 Esto es un texto normal de GitHub, escribiendo directamente en Markdown
 
+Al texto normal se le pueden aplicar varios formatos, como son la **negrita**, el <ins>subrayado</ins> la *cursiva* o el ~~tachado~~.
+
+***También se pueden combinar formatos***
+
+Puedo crear enlaces, como a [Mi Perfil](https://github.com/Marcos-GdA)
+
+> [!NOTE]
+> También se pueden crear esta clase de etiquetas.
+
 <!-- Este texto no se mostrará, es tan solo un comentario -->
 
 ---
