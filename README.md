@@ -13,7 +13,7 @@ Esto es un texto normal de GitHub, escribiendo directamente en Markdown
 |-----:|---------------|
 |     1|Texto de prueba 1|
 |     2|La longitud de las celdas en Markdown no importa|
-|     3|Todas las filas se adaptan todas a la mas larga|
+|     3|Todas las filas se adaptan a la mas larga|
 
 ---
 
