@@ -1,3 +1,8 @@
+// El programa genera un número aleatorio.
+// El usuario intenta adivinarlo.
+// Mostrar si el número introducido es mayor o menor.
+// Practicar Random, bucles y condicionales.
+
 import java.util.Scanner;
 public class AdivinaElNumero {
 

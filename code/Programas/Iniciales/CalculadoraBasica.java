@@ -1,3 +1,7 @@
+// Pedir dos números.
+// Elegir suma, resta, multiplicación o división.
+// Practicar Scanner, switch y métodos.
+
 import java.util.Scanner;
 public class CalculadoraBasica {
     static Scanner sc = new Scanner(System.in);

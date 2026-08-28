@@ -1,3 +1,7 @@
+// Convertir entre Celsius, Fahrenheit y Kelvin.
+// Practicar fórmulas, menús y validación de datos.
+// Por ejemplo: Celsius → Fahrenheit.
+
 import java.util.Scanner;
 public class ConversorDeTemperaturas {
     

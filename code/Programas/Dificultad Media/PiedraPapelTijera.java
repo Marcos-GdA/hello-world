@@ -1,3 +1,7 @@
+// Jugar contra el ordenador.
+// Contar victorias, derrotas y empates.
+// Usar Random, switch y bucles.
+
 import java.util.Scanner;
 
 public class PiedraPapelTijera {
