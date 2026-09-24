@@ -8,32 +8,28 @@ public class ComprobadorDePalindromos {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String args[]) {
-        
+        introducirPalabra();
     }
 
+    // Se introduce la palabra a comprobar
     public static void introducirPalabra(){
         System.out.println("Introduce la palabra a comprobar: ");
-        String pal = sc.next();
+        String pal = sc.nextLine().replace(" ", "").toLowerCase();
 
         comprobarPar(pal);
     }
 
     public static void comprobarPar(String pal){
-        int mitN = pal.length() / 2;
-        int mitP = 0;
-
-        if (pal.length() %2 == 0){
-            mitP = mitN + 1;
-        } else if (pal.length() %2 != 0){
-            mitP = mitN + 2;
-        }
-
-        recorrerPalabra(pal, mitN, mitP);
+        recorrerPalabra(pal);
     }
 
-    public static void recorrerPalabra(String pal, int mitN, int mitP){
-        for (int i=mitP; i>=0; i--){
-            
+    public static void recorrerPalabra(String pal){
+        for (int i=0; i<pal.length() / 2; i++){
+            if (pal.charAt(i) != pal.charAt(pal.length() - 1 - i)){
+                System.out.println("La palabra no es un palíndromo.");
+                return;
+            }
         }
+        System.out.println("La palabra es un palíndromo.");
     }
 }
